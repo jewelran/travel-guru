@@ -1,0 +1,111 @@
+*{
+    margin: 0 ;
+    padding: 0;
+}
+.App-logo {
+    width: 150px;
+    float: left;
+    margin-left:  10px ;
+    background-color: white;
+    opacity: 0.5;
+    border-radius: 10px;
+  }
+  .Home-container{
+      position: absolute;
+      width: 100%;
+      z-index: 1;
+  }
+  .menu3{
+        display: flex;
+        padding:10px 15px;
+        margin: 15px;
+        cursor: pointer;
+        color:white;
+        transition: 0.3s ease all;
+        width: 38%;
+        float: right;
+        padding: 1rem;
+        text-align: right;
+        list-style: none;
+    
+  }
+  .topMenu1{
+    color: orange;
+    padding: 18px 15px;
+    letter-spacing: 2px;
+    transition: 0.4s ease all;
+    border-radius: 10px;
+    padding-bottom:0;
+}
+.topMenu1:hover{
+    background-color: rgb(73, 73, 73);
+      border-radius: 10px;
+      color: white;
+
+}
+  .menu3>li{
+      float: left;
+      padding:10px 15px;
+      cursor: pointer;
+      color:orange;
+      margin-left:10px ;
+      transition: 0.3s ease all;
+
+  }
+  .menu3>li:hover{
+      background-color: rgb(73, 73, 73);
+      border-radius: 10px;
+      color: white;
+  }
+
+  .top-logo3{
+      width: 50%;
+      height: 5rem;
+      display: flex;
+      margin-left: 1rem;
+  }
+  .navBar{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    border-bottom: 1px solid gray;
+  }
+  .hadding{
+      margin-left: 8rem;
+      margin-top:1rem ;
+  }
+  .room-container{
+      display: flex;
+      margin-top:1rem;
+      padding: 5rem;
+      margin-left:2rem ;
+      padding-top: 0rem;
+
+  }
+  .room-category{
+      width: 50%;
+      text-align:left;
+      padding: 5px;
+  }
+  .map{
+      width: 45%;
+      border: 1px solid red;
+      margin-left: 5%;
+      padding: 5px;
+
+  }
+  .room-details{
+      display: flex;
+  }
+  .img-container{
+      width: 35%;
+  }
+  .img-container>img{
+    width: 98%;
+    height: 10rem;
+    padding-bottom: 3rem;
+  }
+  .img-discription{
+      width: 65%;
+      color: gray;
+  }

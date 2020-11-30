@@ -1,0 +1,162 @@
+.home{
+    background-image: url(../../Component/New-folder/Image/Rectangle\ 1.png);
+    width: 100%;
+    background-position: center center;
+    height: 110vh;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+}
+.demo{
+    font-size: 45px;
+}
+.btn0{
+    cursor:pointer;
+     background-color:orange;
+     padding: 14px 45px;
+     border:none;
+     border-radius:10px;
+     margin-top:3rem;
+}
+.topMenu{
+    color: white;
+    padding: 10px 15px;
+    letter-spacing: 2px;
+    transition: 0.4s ease all;
+    border-radius: 10px;
+    padding-bottom:0;
+}
+.topMenu:hover{
+    background-color:orange;
+    color:white;
+
+}
+.btn{
+    cursor:pointer;
+     background-color:orange;
+     padding: 14px 45px;
+     border:none;
+     border-radius:10px;
+     margin-left: 2rem;
+}
+.overLay{
+    width: 100%;
+    height: 110vh;
+    background: black;
+    position: relative;
+    opacity: 0.5;
+}
+.travel-img-container{
+    display: flex;
+    margin-top:50px;
+}
+.travel-img>img{
+    width: 300px;
+    height: 370px;
+    border-radius: 20px;
+    margin-left: 10px;
+    transition: 0.3 ease all;
+
+   
+
+}
+.travel-img>img:hover{
+    box-shadow: 0px 10px 35px black;
+    cursor: pointer;
+}
+.img-wrap{
+    display: flex;
+}
+.home-img-discription{
+    width: 30%;
+    color:white;
+    padding:10px
+}
+.home-img-discription>p{
+    line-height: 30px;
+}
+.App-logo {
+    width: 150px;
+    float: left;
+    margin-left:  10px ;
+    background-color: white;
+    opacity: 0.5;
+    border-radius: 10px;
+  }
+  .Home-container{
+      position: absolute;
+      width: 100%;
+      z-index: 1;
+  }
+
+  .menu1{
+      display: flex;
+      padding:10px 15px;
+      margin: 15px;
+      cursor: pointer;
+      color:white;
+      transition: 0.3s ease all;
+      width: 38%;
+      float: right;
+      padding: 1rem;
+      text-align: right;
+      list-style: none;
+  }
+  .menu1>link{
+      color: white;
+  }
+  .menu1>li:hover{
+      background-color: orange;
+      border-radius: 10px;
+  }
+  .surchBar1{
+      width: 50%;
+      height: 2rem;
+      margin:0 auto;
+      margin-top: 1.5rem;
+      padding: 5px;
+      border-radius: 8px;
+      background-color: transparent;
+      border: 1px solid white;
+      color: white;
+      font-size: 25px;
+  }
+  .homeNavBar{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+  }
+  .top-logo{
+      width: 50%;
+      height: 5rem;
+      display: flex;
+  }
+  .navBar{
+      width: 100%;
+      display: flex;
+  }
+  .arrowicon{
+    margin: 0px auto;
+    color: grey;
+    text-align: center;
+    background: white;
+    padding: 5px;
+    border-radius: 50%;
+    padding-top: 6px;
+    border: 1px solid;
+    cursor: pointer;
+  }
+  .iconWrapper{
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-right: 51rem;
+  }
+  .bookingIcon{
+    margin-top: -18px;
+    color: black;
+    padding-top: -6rem;
+    padding-left: 2rem;
+    margin-right: -16px;
+    position: absolute;
+  }

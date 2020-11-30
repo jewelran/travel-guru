@@ -1,0 +1,10 @@
+.contact-btn{
+    border:none !important;
+    color:orange !important;
+    padding:10px !important;
+    /* margin-top: 0.8rem !important; */
+    
+}
+.contact-btn:hover{
+    color:white !important;
+}
