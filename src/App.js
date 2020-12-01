@@ -3,12 +3,10 @@ import './App.css';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 import Home from './Component/Home/Home';
 import Login from './Component/Login/Login';
-import Header from './Component/Header/Header';
 import Booking from './Component/Booking/Booking';
 import Blog from './Component/Blog/Blog';
 import News from './Component/News/News';

@@ -10,9 +10,7 @@ import ArrowBackIcon from '@material-ui/icons/ArrowBack';
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 
 const Home = () => {
-    const coxBazarHandle = () => {
-        console.log('hellow world')
-    }
+   
     return (
         <div className='home'>
             <div className="Home-container">
